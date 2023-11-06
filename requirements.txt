@@ -1,0 +1,19 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+scipy
+imblearn
+xgboost
+PyYAML
+dill
+cassandra-driver
+apache-airflow
+boto3
+python-dotenv
+dnspython
+Flask
+gunicorn
+#pylab
+-e .
