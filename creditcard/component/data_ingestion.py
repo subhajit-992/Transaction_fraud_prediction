@@ -29,7 +29,7 @@ class DataIngestion:
             logging.info("Replacing na with NAN")
             df.replace({"na":np.NAN},inplace=True)
 
-            logging.info("Splitting dataframe into train and test")
+            logging.info("Splitting Dataframe into train and test")
             train_df,test_df = train_test_split(df,test_size=self.data_ingestion_config.test_size,random_state=42)
 
             logging.info("Creating dataset directory")
