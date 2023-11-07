@@ -108,7 +108,7 @@ jobs:
 
       - name: Deploy Flask App to EC2
         run: |
-          ssh ec2-user@ec2-65-2-168-24.ap-south-1.compute.amazonaws.com << EOF
+          ssh ec2-user@ec2-52-66-120-84.ap-south-1.compute.amazonaws.com << EOF
             cd fraud_prediction.py
             git pull origin main
             source venv/bin/activate
